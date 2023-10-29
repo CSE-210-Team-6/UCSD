@@ -1,0 +1,16 @@
+#own_iframe {
+  display: none;
+  visibility: hidden;
+}
+
+#own_iamge {
+  background-image: url("_images/about/economic-impact-report/img-stats-top-ten.jpg");
+}
+
+#own_image2 {
+  background-image: url("_images/about/economic-impact-report/img-stats-number-one-public-service.jpg");
+}
+
+#own_image3 {
+  display: none;
+}

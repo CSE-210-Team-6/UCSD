@@ -934,7 +934,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const h2Elem = btnElem.previousElementSibling;
     const spanElem = document.createElement('span');
     const imgElem = document.createElement('img');
-    imgElem.setAttribute('src', 'https://www.ucsd.edu/_resources/img/icon_check.png');
+    imgElem.setAttribute('src', '..\www.ucsd.edu/_resources/img/icon_check.png');
     imgElem.setAttribute('alt', 'check');
     spanElem.appendChild(imgElem);
 

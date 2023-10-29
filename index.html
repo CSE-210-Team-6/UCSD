@@ -30,11 +30,11 @@
 
 <!-- Site-specific CSS files -->
     
-  <link href="https://www.ucsd.edu/_resources/css/vendor/brix_sans.css" rel="stylesheet" type="text/css"/>
+  <link href="..\www.ucsd.edu\_resources\css\vendor\brix_sans.css" rel="stylesheet" type="text/css"/>
   <link href="https://www.ucsd.edu/_resources/css/vendor/refrigerator_deluxe.css" rel="stylesheet" type="text/css"/>
   
   <!-- CSS complied from style overrides -->
-  <link href="https://www.ucsd.edu\_resources\css\styles.css" rel="stylesheet"/>
+  <link href="..\www.ucsd.edu\_resources\css\styles.css" rel="stylesheet"/>
   
   <link href="_resources/css/custom-img.css" rel="stylesheet"/>
   
@@ -58,7 +58,14 @@
   <![endif]-->
 
 
-  <script src="script1.js"></script>
+  
+  <script>window.dataLayer = window.dataLayer || [];</script>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-K826VG');</script>
+   
    
   </head>
 
@@ -1064,7 +1071,7 @@
  
  
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="script2.js"></script> 
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> 
  <script src="https://www.ucsd.edu/_resources/bootstrap/javascripts/bootstrap.min.js"></script>
  
  <!-- Slick Slider for custom carousel -->
@@ -1073,7 +1080,11 @@
  
  <script src="https://www.ucsd.edu/_resources/js/vendor/responsive-tabs.js"></script>
  
- <script type="text/javascript" src="script3.js"></script>
+ <script type="text/javascript">
+	(function($) {
+	  fakewaffle.responsiveTabs(['xs']);
+	})(jQuery);
+ </script>
  
  <!-- for custom scroll animation -->
  <script src="https://www.ucsd.edu/_resources/js/vendor/jquery.easings.min.js"></script>
@@ -1086,7 +1097,16 @@
  
  
  
- <script src="script4.js"> </script>
+ <script>
+	$('#modalVideoLink').click(function() {
+	  var src = 'https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1';
+	  $('.modal-video iframe').attr('src', src);
+	});
+ 
+	$('.modal-video').on('hidden.bs.modal', function() {
+	  $('.modal-video iframe').removeAttr('src');
+	})
+ </script>
  
  <script src="https://www.ucsd.edu/_resources/js/vendor/jquery.matchHeight.js"></script>
  
@@ -1100,8 +1120,15 @@
  <!-- Site-specific javascript files -->
      
 
-<script type="text/javascript" src="script5.js"></script>
-<noscript><img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=46649&fmt=gif" /></noscript>
+    <script type="text/javascript">
+_linkedin_data_partner_id = "46649";
+</script><script type="text/javascript">
+(function(){var s = document.getElementsByTagName("script")[0];
+var b = document.createElement("script");
+b.type = "text/javascript";b.async = true;
+b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+s.parentNode.insertBefore(b, s);})();
+</script><noscript><img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=46649&fmt=gif" /></noscript>
 
 
   

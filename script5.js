@@ -1,3 +1,5 @@
+$(".panel-body").matchHeight();
+$(".panel-news-title").matchHeight();
 _linkedin_data_partner_id = "46649";
 (function () {
   var s = document.getElementsByTagName("script")[0];

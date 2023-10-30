@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "RefrigeratorDeluxeExtrabold";
+    src: url('../fonts/font.woff2') format('woff2'), url('/_resources/fonts/refrigerator_deluxe_extrabold/font.woff') format('woff');
+}
+
+@font-face {
+    font-family: "Brix Sans Black";
+    src: url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.eot");
+    src: url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/97496b0d96cf56135f909100ee52e2f0.svg#Brix Sans Black")format("svg");
+}

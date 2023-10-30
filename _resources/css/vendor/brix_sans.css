@@ -2,23 +2,28 @@
 
 @font-face {
     font-family: 'BrixSansBold';
-    src: url("https://db.onlinewebfonts.com/t/8a38387848597f9d9b1320d397bdb385.eot"), url("https://db.onlinewebfonts.com/t/8a38387848597f9d9b1320d397bdb385.woff2")format("woff2");
+    src: url("https://db.onlinewebfonts.com/t/8a38387848597f9d9b1320d397bdb385.eot");
+    src: url("../../fonts/BrixSansBold.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'BrixSansRegular';
     src: url("https://db.onlinewebfonts.com/t/35b72876d6df38e4727f777fa2417f3c.eot");
-    src: url("https://db.onlinewebfonts.com/t/35b72876d6df38e4727f777fa2417f3c.woff2")format("woff2"),
+    src: url("../../fonts/BrixSansRegular.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'BrixSansBold-Italic';
     src: url("https://db.onlinewebfonts.com/t/58cf7b2b83c5d3ac9c08accc7b8ba9c8.eot");
-    src: url("https://db.onlinewebfonts.com/t/58cf7b2b83c5d3ac9c08accc7b8ba9c8.woff2")format("woff2"),
+    src: url("../../fonts/BrixSansBold-Italic.woff2") format("woff2");
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'BrixSansRegular-Italic';
     src: url("https://db.onlinewebfonts.com/t/afd624f71fe6ee0684a70ad735ec5de2.eot");
-    src: url("https://db.onlinewebfonts.com/t/afd624f71fe6ee0684a70ad735ec5de2.woff2")format("woff2"),
+    src: url("../../fonts/BrixSansRegular-Italic.woff2") format("woff2");
+    font-display: swap;
 }

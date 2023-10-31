@@ -7,14 +7,15 @@ You can check our website [https://heartfelt-sprite-7cec10.netlify.app/](https:/
 Scores previously
 
 Mobile:  
-<img width="907" alt="Screenshot 2023-10-30 at 8 04 13 PM" src="https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/8c6daf3e-3e3f-4082-8ab1-8899bf594749">  
+![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/463cb2f7-47d9-4a50-8bb0-3881d64a05da)
   
 Desktop:  
   
 Scores now  
   
 Mobile:  
-<img width="907" alt="Screenshot 2023-10-30 at 8 05 11 PM" src="https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/36de4d08-c711-44af-8482-682715c9df26">  
+![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/2af50473-0397-4317-b5ce-5f8e164696e7)
+
 
 Desktop:  
   

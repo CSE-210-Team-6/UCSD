@@ -18,6 +18,15 @@ Scores now
 
 ## Performance
 
+1. Reduced sizes of all images from 5.56Mb to 0.67Mb using online minifi tools.
+2. Serve images in next-gen formats: Converted all images from jpg/png to avif format.
+3. Download and render all font files from locally. 
+4. Removed all unused code from font css files to make it render faster.
+5. Made all CSS and Javascript files local. Remove some unnecessary code to make it render faster.
+6. Avoid document.write() from code causing delay in performance.
+
+## Diagnostics
+
 ## Accessibility
 
 1. [aria-*] attributes do not match their roles.

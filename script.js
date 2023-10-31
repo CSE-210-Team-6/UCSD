@@ -13,12 +13,6 @@ function func1() {
   })(window, document, "script", "dataLayer", "GTM-K826VG");
 }
 
-function func2() {
-  window.jQuery ||
-    document.write(
-      '<script src="../../assets/js/vendor/jquery.min.js"></script>'
-    );
-}
 
 function func3() {
   (function ($) {

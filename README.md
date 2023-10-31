@@ -2,7 +2,7 @@
 
 Making the UCSD website more performant, faster and more accessible.
 
-You can check our website [https://heartfelt-sprite-7cec10.netlify.app/](https://heartfelt-sprite-7cec10.netlify.app/).
+You can check our website [https://cse210-team6-main.netlify.app/](https://cse210-team6-main.netlify.app/).
 
 Scores previously
 
@@ -12,7 +12,7 @@ Scores now
 
 ![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/2af50473-0397-4317-b5ce-5f8e164696e7)  
   
-(\*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).)
+(\*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) tool by Chrome.)
 
 # Problems solved
 

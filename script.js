@@ -1,4 +1,4 @@
-const func1 = () => {
+const init = () => {
   const dataLayer = window.dataLayer || [];
   dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
   const firstScript = document.getElementsByTagName("script")[0];
@@ -10,24 +10,24 @@ const func1 = () => {
   firstScript.parentNode.insertBefore(scriptElement, firstScript);
 };
 
-const func2 = () => {
+const creatEle = () => {
   if (typeof window.jQuery === "undefined") {
     const scriptElement = document.createElement("script");
     scriptElement.src = "../../assets/js/vendor/jquery.min.js";
     document.body.appendChild(scriptElement);
   }
 };
-  
-const func3 = () => {
+
+const setJquery = () => {
   const fakewaffle = window.fakewaffle;
   const jQuery = window.jQuery;
-  
+
   if (fakewaffle && jQuery) {
     fakewaffle.responsiveTabs(["xs"]);
   }
 };
 
-function func4() {
+function finish() {
   $("#modalVideoLink").click(function () {
     const src = "https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1";
     $(".modal-video iframe").attr("src", src);
@@ -39,8 +39,6 @@ function func4() {
 }
 
 function matchHeights() {
-
   $(".panel-body").matchHeight();
   $(".panel-news-title").matchHeight();
 }
-

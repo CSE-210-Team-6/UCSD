@@ -42,5 +42,5 @@ function matchHeights() {
 
   $(".panel-body").matchHeight();
   $(".panel-news-title").matchHeight();
-
 }
+

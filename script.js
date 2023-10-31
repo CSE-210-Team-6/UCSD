@@ -3,7 +3,7 @@ const func1 = () => {
   dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
   const firstScript = document.getElementsByTagName("script")[0];
   const scriptElement = document.createElement("script");
-  const dataLayerName = dataLayer != "dataLayer" ? `&l=${dataLayer}` : "";
+  const dataLayerName = dataLayer != "dataLayer" ? "&l=dataLayer" : "";
 
   scriptElement.async = true;
   scriptElement.src = `//www.googletagmanager.com/gtm.js?id=GTM-K826VG${dataLayerName}`;

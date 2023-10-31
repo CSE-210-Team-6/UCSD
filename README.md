@@ -6,19 +6,11 @@ You can check our website [https://heartfelt-sprite-7cec10.netlify.app/](https:/
 
 Scores previously
 
-Mobile:  
 ![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/463cb2f7-47d9-4a50-8bb0-3881d64a05da)
   
-Desktop:  
-  
 Scores now  
-  
-Mobile:  
-![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/2af50473-0397-4317-b5ce-5f8e164696e7)
 
-
-Desktop:  
-  
+![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/2af50473-0397-4317-b5ce-5f8e164696e7)  
   
 (\*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).)
 

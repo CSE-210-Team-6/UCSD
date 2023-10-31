@@ -44,3 +44,4 @@ function matchHeights() {
   $(".panel-news-title").matchHeight();
 }
 
+module.exports = { func2 };

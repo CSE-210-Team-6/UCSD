@@ -27,7 +27,7 @@ const setJquery = () => {
   }
 };
 
-function finish() {
+const finish = () => {
   $("#modalVideoLink").click(function () {
     const src = "https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1";
     $(".modal-video iframe").attr("src", src);
@@ -38,7 +38,7 @@ function finish() {
   });
 }
 
-function matchHeights() {
+const matchHeights = () => {
   $(".panel-body").matchHeight();
   $(".panel-news-title").matchHeight();
 }

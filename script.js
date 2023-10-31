@@ -13,12 +13,6 @@ function func1() {
   })(window, document, "script", "dataLayer", "GTM-K826VG");
 }
 
-function func2() {
-  window.jQuery ||
-    document.write(
-      '<script src="../../assets/js/vendor/jquery.min.js"></script>'
-    );
-}
 
 function func3() {
   (function ($) {
@@ -43,3 +37,15 @@ function matchHeights() {
   $(".panel-news-title").matchHeight();
 
 }
+
+// Passive event listeners
+jQuery.event.special.touchstart = {
+  setup: function( _, ns, handle ) {
+      this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+  }
+};
+jQuery.event.special.touchmove = {
+  setup: function( _, ns, handle ) {
+      this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+  }
+};

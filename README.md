@@ -45,3 +45,7 @@ Scores now
 The work primarily required understanding how aria-labels work and what should be the format in which they should be given the values.
 
 ## Best Practices
+1. Downloaded JavaScript files and images to local directory and avoided loading costs.
+2. Compressed the JavaScript code so that it can be parsing more efficiently.
+3. Modernized `script.js`.
+4. Refined HTML file to load the JS file locally and avoided redundant invocation.

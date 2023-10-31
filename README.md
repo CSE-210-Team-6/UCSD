@@ -12,11 +12,17 @@ Scores now
 
 <img width="907" alt="Screenshot 2023-10-30 at 8 05 11 PM" src="https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/36de4d08-c711-44af-8482-682715c9df26">
 
-(*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).)
+(\*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/).)
 
 # Problems solved
 
 ## Performance
+
+1. Serve images in next-gen formats
+2. Properly size images
+3. Eliminate render-blocking resources
+4. Efficiently encode images
+5. Enable text compression
 
 ## Accessibility
 

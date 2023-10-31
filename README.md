@@ -25,4 +25,6 @@ Scores now
 3. [aria-*] attributes do not have valid values.
 4. ARIA input fields do not have accessible names
 
+The work primarily required understanding how aria-labels work and what should be the format in which they should be given the values.
+
 ## Best Practices

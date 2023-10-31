@@ -1,28 +1,35 @@
-function func1() {
-  window.dataLayer = window.dataLayer || [];
+const func1 = () => {
+  const dataLayer = window.dataLayer || [];
+  dataLayer.push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+  const firstScript = document.getElementsByTagName("script")[0];
+  const scriptElement = document.createElement("script");
+  const dataLayerName = dataLayer != "dataLayer" ? `&l=${dataLayer}` : "";
 
-  (function (w, d, s, l, i) {
-    w[l] = w[l] || [];
-    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-    var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s),
-      dl = l != "dataLayer" ? "&l=" + l : "";
-    j.async = true;
-    j.src = "//www.googletagmanager.com/gtm.js?id=" + i + dl;
-    f.parentNode.insertBefore(j, f);
-  })(window, document, "script", "dataLayer", "GTM-K826VG");
-}
+  scriptElement.async = true;
+  scriptElement.src = `//www.googletagmanager.com/gtm.js?id=GTM-K826VG${dataLayerName}`;
+  firstScript.parentNode.insertBefore(scriptElement, firstScript);
+};
 
-
-function func3() {
-  (function ($) {
+const func2 = () => {
+  if (typeof window.jQuery === "undefined") {
+    const scriptElement = document.createElement("script");
+    scriptElement.src = "../../assets/js/vendor/jquery.min.js";
+    document.body.appendChild(scriptElement);
+  }
+};
+  
+const func3 = () => {
+  const fakewaffle = window.fakewaffle;
+  const jQuery = window.jQuery;
+  
+  if (fakewaffle && jQuery) {
     fakewaffle.responsiveTabs(["xs"]);
-  })(jQuery);
-}
+  }
+};
 
 function func4() {
   $("#modalVideoLink").click(function () {
-    var src = "https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1";
+    const src = "https://www.youtube.com/embed/dgUGljgbjEA?autoplay=1";
     $(".modal-video iframe").attr("src", src);
   });
 
@@ -37,15 +44,3 @@ function matchHeights() {
   $(".panel-news-title").matchHeight();
 
 }
-
-// Passive event listeners
-jQuery.event.special.touchstart = {
-  setup: function( _, ns, handle ) {
-      this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
-  }
-};
-jQuery.event.special.touchmove = {
-  setup: function( _, ns, handle ) {
-      this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
-  }
-};

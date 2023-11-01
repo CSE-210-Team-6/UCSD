@@ -4,13 +4,35 @@ Making the UCSD website more performant, faster and more accessible.
 
 You can check our website [https://cse210-team6-main.netlify.app/](https://cse210-team6-main.netlify.app/).
 
-Scores previously
+## Scores previously
+<hr>
+
+### Desktop
 
 ![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/463cb2f7-47d9-4a50-8bb0-3881d64a05da)
+
+<hr>
+
+### Mobile
+
+![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/7138f601-c22f-4476-b0b3-21245b803f76)
+
   
-Scores now  
+## Scores now  
+
+<hr>
+
+### Desktop
 
 ![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/2af50473-0397-4317-b5ce-5f8e164696e7)  
+
+<hr>
+
+### Mobile
+
+![image](https://github.com/CSE-210-Team-6/UCSD-Website/assets/40426312/199f32a3-908e-49f4-9fff-2e6aa16e364e)
+
+
   
 (\*Scores were calculated using the [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) tool by Chrome.)
 
